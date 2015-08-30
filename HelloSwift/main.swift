@@ -10,3 +10,21 @@ import Foundation
 
 println("Hello, World!")
 
+class Car{
+    
+    var carName:String;
+    var id:Int
+    
+    init(carName newCarName:String,id newId:Int){
+        self.carName = newCarName
+        self.id = newId
+    }
+    
+    func getInfo() -> String{
+        return "car \(carName) , id is \(id)"
+    }
+    
+}
+
+var toyota = Car(carName: "toyota",id: 1234)
+println(toyota.getInfo())
