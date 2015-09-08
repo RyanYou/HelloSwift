@@ -8,23 +8,22 @@
 
 import Foundation
 
-println("Hello, World!")
-
 class Car{
-    
-    var carName:String;
-    var id:Int
-    
-    init(carName newCarName:String,id newId:Int){
-        self.carName = newCarName
-        self.id = newId
+    var brand:String
+    var name:String
+    init(brand:String,name:String){
+        self.name = name
+        self.brand = brand
     }
     
     func getInfo() -> String{
-        return "car \(carName) , id is \(id)"
+        return "my car is \(brand) ， \(name)"
     }
-    
 }
 
-var toyota = Car(carName: "toyota",id: 1234)
-println(toyota.getInfo())
+var myCar = Car(brand: "丰田", name: "卡罗拉")
+println(myCar.getInfo())
+
+
+
+
