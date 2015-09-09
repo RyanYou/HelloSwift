@@ -8,22 +8,7 @@
 
 import Foundation
 
-class Car{
-    var brand:String
-    var name:String
-    init(brand:String,name:String){
-        self.name = name
-        self.brand = brand
-    }
-    
-    func getInfo() -> String{
-        return "my car is \(brand) ， \(name)"
-    }
-}
+//var myCar = Car(brand: "广汽丰田", name: "卡罗拉")
+//println(myCar.getInfo())
 
-var myCar = Car(brand: "丰田", name: "卡罗拉")
-println(myCar.getInfo())
-
-
-
-
+println(Demo0909.testArray2())
