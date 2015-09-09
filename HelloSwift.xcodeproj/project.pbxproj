@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0C54D0C71B93380B004B8434 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54D0C61B93380B004B8434 /* main.swift */; };
+		0C6F5B0C1B9F258E0047272C /* Demo0908.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F5B0B1B9F258E0047272C /* Demo0908.swift */; };
+		0C6F5B0E1BA06F6F0047272C /* Demo0909.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F5B0D1BA06F6F0047272C /* Demo0909.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		0C54D0C31B93380B004B8434 /* HelloSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C54D0C61B93380B004B8434 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0C6F5B0B1B9F258E0047272C /* Demo0908.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo0908.swift; sourceTree = "<group>"; };
+		0C6F5B0D1BA06F6F0047272C /* Demo0909.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo0909.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,19 @@
 		0C54D0C51B93380B004B8434 /* HelloSwift */ = {
 			isa = PBXGroup;
 			children = (
+				0C6F5B0A1B9F255E0047272C /* Group1 */,
 				0C54D0C61B93380B004B8434 /* main.swift */,
 			);
 			path = HelloSwift;
+			sourceTree = "<group>";
+		};
+		0C6F5B0A1B9F255E0047272C /* Group1 */ = {
+			isa = PBXGroup;
+			children = (
+				0C6F5B0B1B9F258E0047272C /* Demo0908.swift */,
+				0C6F5B0D1BA06F6F0047272C /* Demo0909.swift */,
+			);
+			name = Group1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C6F5B0E1BA06F6F0047272C /* Demo0909.swift in Sources */,
+				0C6F5B0C1B9F258E0047272C /* Demo0908.swift in Sources */,
 				0C54D0C71B93380B004B8434 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,6 +252,7 @@
 				0C54D0CC1B93380B004B8434 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

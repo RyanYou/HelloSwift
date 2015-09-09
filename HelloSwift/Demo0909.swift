@@ -58,6 +58,10 @@ class Demo0909{
         }
     }
     
+    static func testArray3(){
+        
+    }
+    
 }
 
 
