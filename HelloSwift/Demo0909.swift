@@ -59,7 +59,10 @@ class Demo0909{
     }
     
     static func testArray3(){
-        
+        var cars:Array<Car> = [Car(brand: "丰田", name: "汉兰达")]
+        for car in cars{
+            println(car.getInfo())
+        }
     }
     
 }
